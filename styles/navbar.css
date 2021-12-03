@@ -1,0 +1,57 @@
+.navbar {
+   display: grid ;
+   grid-template-columns: 1fr;
+   background-color: white;
+   padding: 16px;
+}
+
+
+
+
+
+.navbar-carte {
+   text-align: left;
+   }
+
+
+
+.navbar img {
+   border: black 1px;
+   width: 300px;
+}
+
+
+
+.liste{
+       display: flex;
+}
+
+
+.link
+{
+   margin: 10px auto;
+   color: white;
+   font-size: 25px;
+}
+
+
+
+@media (min-width: 576px) {
+   .navbar {
+      grid-template-columns: 1fr;
+   }
+
+}
+
+@media (min-width: 768px) {
+   .navbar {
+      grid-template-columns: 1fr;
+   }
+}
+
+@media (min-width: 992px) {
+      .navbar {
+      grid-template-columns: 1fr 1fr;
+   }
+
+}
