@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @import url(banner.css);
 @import url(button.css);
 @import url(cards.css);
 @import url(footer.css);
+@import url(temoignage.css);
+@import url(programmes.css);
+@import url(navbar.css);
+@import url(chiffres.css);
+
+
+
+temoignage
+
+
 
 
 a{
+	text-decoration: ;
+}
+
+
+a:link{
 	text-decoration: none;
 }
 
 body{
 	margin: 0;
+	font-family: lato;
+	text-decoration: none;
+}
+
+.titre-section
+{
+	color: #b71b53;
+	text-align: center;
+	font-size: 30px;
 }
