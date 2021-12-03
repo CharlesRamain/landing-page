@@ -1,0 +1,129 @@
+#leschiffres{
+   background-color: #141C31;
+   color: white;
+   text-align: center;
+margin-top: 56px;
+padding: 16px;
+}
+
+
+.leschiffresbis {
+   display: grid ;
+   grid-template-columns: 1fr;
+   grid-gap: 16px;
+}
+
+
+.carte-chiffres1 {
+   padding: 16px;
+   text-align: center;
+      width: 300px;
+      justify-self: center;
+      background-color: #91589f;
+   }
+
+.carte-chiffres2 {
+   padding: 16px;
+   text-align: center;
+      width: 300px;
+      justify-self: center;
+      background-color: #3b99cf;
+   }                
+
+
+
+.carte-chiffres3 {
+   padding: 16px;
+   text-align: center;
+      width: 300px;
+      justify-self: center;
+      background-color: #39babd;}
+
+
+.carte-chiffres4 {
+   padding: 16px;
+   text-align: center;
+      width: 300px;
+      justify-self: center;
+      background-color: #eb5c41;
+}
+
+.carte-chiffres1:hover
+{
+   background-color: #9d6baa;
+}
+
+
+.carte-chiffres2:hover
+{
+   background-color: #52a4d4;
+}
+
+
+.carte-chiffres3:hover
+{
+   background-color: #57c4c6;
+}
+
+
+.carte-chiffres4:hover
+{
+   background-color: #ed735d
+;
+}
+
+
+
+
+
+
+
+h3{
+   font-size: 30px;
+   color: white;
+   background-color: #141C31;
+}
+
+
+#leschiffres img {
+   border: black 1px;
+   width: 150px;
+}
+
+p{
+   color: white;
+   font-size: 20px;
+}
+
+h2{
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+   .leschiffresbis {
+      grid-template-columns: 1fr;
+   }
+
+}
+
+@media (min-width: 768px) {
+   .cleschiffresbis {
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (min-width: 992px) {
+      .leschiffresbis {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+
+}
+
